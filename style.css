@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz@0,14..32;1,14..32&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #616060;
+}
+
+.container {
+    width: min(90%, 1200px);
+    margin: auto;
+    padding: 0 16px;
+}
+
+
+
+.header-section p{
+    margin-top: 10px;
+
+}
+
+.contents ul {
+    padding-left: 10px;
+    list-style: none;
+
+}
+
+.contents ul li {
+    margin-top: 8px;
+
+}
+
+.contents a{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+.contents a:hover{
+    color: #1c64b1;
+    cursor: pointer;
+
+}
+
+section{
+    margin-top: 30px;
+}
+
+
+section p{
+    margin-top: 10px;
+}
+
+.heading-color{
+    background-color: #d2d26b;
+    width: 40%;
+    padding: 5px;
+   
+}
+
+.footer-section{
+    margin-top: 10px;
+}
